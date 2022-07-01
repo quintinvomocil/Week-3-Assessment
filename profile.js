@@ -4,7 +4,7 @@ const ritualBtn = document.querySelector('#ritual')
 
 const myFavColor = () =>{
 
-    alert("My favorite color is white because it conatins the entire color spectrum!")
+    alert("My favorite color is white because it contains the entire color spectrum!")
 }
 
 const myFavPlace = () => {
@@ -49,3 +49,11 @@ const interestRevealed = () => {
 interestPhoto.addEventListener("click", interestRevealed)
 
 
+const careerPhoto = document.getElementById("career-goals")
+
+const careerRevealed = () => {
+    document.querySelector(".career").style.visibility = "visible"
+    document.querySelector(".career-p").style.visibility = "visible"
+}
+
+careerPhoto.addEventListener("click", careerRevealed)

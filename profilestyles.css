@@ -54,6 +54,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: rosybrown;
 
 }
 
@@ -78,5 +79,13 @@ p {
 }
 
 .interests-p{
+    visibility: hidden;
+}
+
+.career{
+    visibility: hidden;
+}
+
+.career-p {
     visibility: hidden;
 }
