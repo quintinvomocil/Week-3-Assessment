@@ -34,9 +34,49 @@ body {
   }
   
   img {
-      max-width: 300px;
+      max-width: 150px;
+      max-height: 150px;
   }
   
   h1 {
       text-align: center;
   }
+
+  .button{
+    background-color: lightpink;
+    padding: 10px 20px;
+  
+}
+
+.container-one{
+    border: 3px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+p {
+    text-align: center;
+}
+
+.skills {
+    visibility: hidden;
+}
+
+.skills-p {
+    visibility: hidden;
+}
+
+.skills-list {
+    visibility: hidden;
+}
+
+.interests {
+    visibility: hidden;
+}
+
+.interests-p{
+    visibility: hidden;
+}
